@@ -1,0 +1,37 @@
+
+
+ul li {
+    list-style-type: none;
+}
+
+a:hover {
+    color: pink;
+}
+
+ol li {
+   font-family:  sans-serif;
+}
+
+#sidebar {
+    height:100%;
+    width: 200px;
+    border-right: 1px dotted  grey;
+    float: left;
+    /* z-index: 1;
+    position: fixed; */
+}
+
+#content {
+    float: right;
+}
+
+#content img {
+    float: right;
+}
+
+
+#content h1 {
+    font-family: serif;
+}
+
+

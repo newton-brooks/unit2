@@ -1,0 +1,32 @@
+/* h1, h2, h3 ​{
+    background-color: goldenrod;
+    font-size: 16px;
+
+} */
+
+/* 
+#dragonimage {
+    float: left;
+
+} */
+
+/* 
+#dragonimage {
+    width: 45%;
+} */
+
+#dragonimage, #paragraph {
+    display: inline;
+}
+
+
+#paragraph {
+    width: 55%;
+    float: right;
+    /* margin-top: 150px; */
+    /* margin-bottom:50px; */
+    /* color: red; */
+}
+
+
+

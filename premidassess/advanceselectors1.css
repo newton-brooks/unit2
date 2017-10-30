@@ -1,0 +1,62 @@
+/* a[href^="http://"] {
+    color: blue
+}
+
+a[href^="https://"] {
+    color: red
+} */
+
+
+li:nth-child(2) a {
+    font-style: italic;
+}
+
+li:nth-last-child(2) a {
+    font-weight: bold;
+}
+
+a[href*=".org"] {
+    text-transform: uppercase; 
+}
+
+
+/* a[href*="panda"] {
+    background-color: cornflowerblue
+} */
+
+
+
+
+a:link {
+    color: blue; 
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: hotpink
+}
+
+img {
+    border: 5px solid transparent
+}
+
+
+img:hover {
+    border: 5px solid orange;
+}
+
+body {
+    background-color: wheat
+}
+
+h1 + p::first-letter,
+h2 + p::first-letter {
+    
+}

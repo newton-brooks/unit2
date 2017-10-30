@@ -1,0 +1,18 @@
+legend {
+    color: blue;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-size: 20pt;
+}
+
+fieldset {
+    margin: auto;
+   width: 1000px;
+} 
+
+p {
+    font-family: 'Arapey', serif;
+    font-size: 18pt;
+}
+
+

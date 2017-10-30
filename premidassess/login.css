@@ -1,0 +1,20 @@
+/* input[name *= "email"] {
+    margin-left:0;
+} */
+
+p {
+    padding-left: 30px;
+}
+
+input[type *= "submit"] {
+    visibility: hidden;
+}
+
+input:valid {
+    border: 2px solid green;
+}
+
+input:invalid {
+    background-color:yellow
+}
+

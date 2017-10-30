@@ -1,0 +1,25 @@
+@media (max-width: 961px) {
+   html {
+    width:30em;
+   } 
+}
+
+
+@media (min-width: 962px) {
+   html{
+    font-size: 24px;
+    width: 40em;
+    /* text-align: center; */
+    margin: auto;
+   } 
+}
+
+body img {
+    width: 100%;
+    display:block;
+   margin:0 auto;
+}
+
+body {
+    width: 100%;
+}

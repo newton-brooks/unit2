@@ -1,0 +1,47 @@
+
+html {
+    background: url(http://pluspng.com/img-png/strawberry-png-image-22928-750.png) top center;
+    font-size: 2em;
+}
+
+@media print {
+    #sidebar {
+        display: none;
+    }
+}
+
+
+#sidebar {
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    text-align: left;
+    height: 100%;
+    width: 20%;
+    background-color: yellow
+}
+
+
+#center {
+    padding-left: 300px;
+}
+
+
+#content  {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+}
+
+
+ul {
+    padding: 0;
+    margin:0;
+    list-style-type: none;
+    text-align: center;
+}
+
+
