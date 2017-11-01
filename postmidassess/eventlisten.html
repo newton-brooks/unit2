@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <!-- <input type="button" value="Click me" id="btn">
+        
+        <script>
+          var btn = document.querySelector('#btn')
+          btn.addEventListener('click', function(event) {
+            // show event type, element and coordinates of the click
+            // alert(event.type + " at " + event.currentTarget);
+            // alert("Coordinates: " + event.clientX + ":" + event.clientY);
+            alert("you clicked the buttom")
+          });
+        </script> -->
+        <!-- <form id="myForm">
+                name: <input id="name" type="text" ><br>
+                <input type="submit" value="submit" >
+            </form>
+            <script>
+                let form = document.querySelector('form');
+                form.addEventListener('submit', function(event){
+                   var name = document.querySelector('#name').value
+                //    event.preventDefault()
+                    // alert('form submitted')
+                   if(name.length < 3){
+                       document.querySelector('#name').style.borderColor = 'red'
+                    //    alert("name must be longer than 3 characters")
+                   } else {
+                    alert('form submitted');
+                   }
+                })
+
+            </script> -->
+
+
+            <form id="myForm">
+                    name: <input type="text"><br>
+                    <input type="submit" value="Submit">
+                </form>
+                <script>
+                    let form = document.querySelector('form');
+                    form.addEventListener('submit', function(event){
+                        alert('form submitted');
+                        
+                    })
+                </script>
+</body>
+</html>

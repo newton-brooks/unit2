@@ -9,12 +9,12 @@
 <body>
     <script>
         
-        input = window.prompt("please enter a word.")
+        var input = window.prompt("please enter a word.")
         var promptbox = ""
             if(input){
                 var num = window.prompt("please enter a number.")
                 for(var i = 0; i < Number(num); i++){
-                    promptbox += input
+                    promptbox += input + "\n"
                 }
                 window.alert(promptbox)
             }

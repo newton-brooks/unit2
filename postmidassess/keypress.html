@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="coords"></div>
+    
+</body>
+    <!-- <script>
+        
+        document.addEventListener('mousemove', function(event){
+            document.querySelector("#coords").innerText = 'x:' + event.clientX + ' ' + 'y:' + event.clientY
+        })
+        </script> -->
+
+<script>
+        document.addEventListener("DOMContentLoaded",function(event){
+            document.addEventListener("mousemove",function(event){
+                 var div = document.getElementById("coords")
+                 div.innerText = "X coordinate is: " + event.clientX  + " Y coordinate is: " + event.clientY
+            })
+         })
+         </script>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+            <form id="form">
+                <input name="name" placeholder="Name"><br>
+                <input type="submit" value="Submit">
+            </form>
+        <script>
+            let form= document.querySelector("form");
+            form.addEventListener('submit', function(event){
+                alert('form submitted')
+                event.preventDefault()
+            })
+            
+            
+        </script>
+    </body>
+</html>
