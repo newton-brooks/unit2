@@ -1,0 +1,17 @@
+
+
+        div {
+            height: 50%;
+            width: 50%;
+            position: absolute;
+            color: red;
+        }
+
+
+   .right {
+       right: 0;
+   }
+
+   .bottom {
+       bottom:0;
+   }
