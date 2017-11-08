@@ -15,3 +15,4 @@ document.addEventListener('click', function(event){
     var t = event.target.style
     t.backgroundColor = t.backgroundColor === "gold" ? "white" : "gold"
 })
+

@@ -1,19 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang=“en”>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        /* #todos li {
+            background-color: blue;
+        } */
+        /* #todos li:nth-child(2) {
+            background-color: green;
+        } */
+    </style>
 </head>
 
 <body>
-    <ul></ul>
-    <input type="text" name="text" id="todoitem">
-    <input type="submit" id="addnew" value="Submit">
+
+        
+    <form>
+        <input type="text" name="text" id="text">
+        <input type="submit" id="addnew" value="Submit">
+    </form>
     <button id="removedone">Remove all completed item</button>
-    <script src="lister.js"></script>
+    
+    <ul id="todos"></ul>
+    
+
+    <script src="lister.js"></script>    
 </body>
 
 </html>

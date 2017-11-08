@@ -4,14 +4,16 @@
             height: 50%;
             width: 50%;
             position: absolute;
-            color: red;
+            /* color: red; */
         }
 
 
    .right {
        right: 0;
+       /* background-color: blue; */
    }
 
    .bottom {
        bottom:0;
+       /* background-color:green; */
    }
